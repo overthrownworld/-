@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Меню - Кафе Ароматика</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="hero">
+        <nav class="navbar">
+            <div class="nav-container">
+                <ul class="nav-menu left">
+                    <li><a href="index.html">О нас</a></li>
+                    <li><a href="index.html#loyalty">Программа лояльности</a></li>
+                    <li><a href="#booking">Бронировать</a></li>
+                </ul>
+                
+                <div class="logo">
+                    <img src="./imgs/logo.svg" alt="Ароматика Лого">
+                </div>
+                
+                <ul class="nav-menu right">
+                    <li><a href="#menu">Меню</a></li>
+                    <li><a href="#delivery">Доставка</a></li>
+                    <li><a href="#contacts">Контакты</a></li>
+                </ul>
+                
+                <div class="mobile-menu-toggle" id="mobileMenuToggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </nav>
+        
+        <div class="mobile-menu" id="mobileMenu">
+            <ul>
+                <li><a href="index.html">О нас</a></li>
+                <li><a href="index.html#loyalty">Программа лояльности</a></li>
+                <li><a href="#booking">Бронировать</a></li>
+                <li><a href="#menu">Меню</a></li>
+                <li><a href="#delivery">Доставка</a></li>
+                <li><a href="#contacts">Контакты</a></li>
+            </ul>
+        </div>
+        
+        <div class="hero-content">
+            <h1>КАФЕ АРОМАТИКА</h1>
+            <p>ГОРОДСКОЕ КАФЕ | КОФЕЙНЯ | НИЖНИЙ НОВГОРОД</p>
+        </div>
+        
+        <a href="#menu" class="scroll-down">
+            <svg width="30" height="20" viewBox="0 0 24 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M2 2L12 12L22 2" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+        </a>
+    </header>
+
+    <section id="menu" class="menu-accordion-section">
+        <div class="container">
+            <h2 class="menu-title">УСЛОВИЯ ДОСТАВКИ</h2>
+            <p class="menu-subtitle">Ваши любимые напитки и перекусы</p>
+
+            <div class="accordion">
+                <div class="accordion-item">
+                    <div class="accordion-header">
+                        <span>Горячие напитки</span>
+                        <span class="plus">+</span>
+                    </div>
+                    <div class="accordion-content">
+                        <ul>
+                            <li>Капучино — 180₽</li>
+                            <li>Латте Макиато — 210₽</li>
+                            <li>Флэт Уайт — 190₽</li>
+                            <li>Раф Кофе — 240₽</li>
+                            <li>Чай листовой в ассортименте — 150₽</li>
+                            <li><a href="#" class="more-link">Подробнее...</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <div class="accordion-header">
+                        <span>Холодные напитки</span>
+                        <span class="plus">+</span>
+                    </div>
+                    <div class="accordion-content">
+                        <ul>
+                            <li>Айс Латте — 220₽</li>
+                            <li>Бамбл-кофе — 250₽</li>
+                            <li>Лимонад Классический — 190₽</li>
+                            <li>Матча-тоник — 230₽</li>
+                            <li>Фраппе — 240₽</li>
+                            <li><a href="#" class="more-link">Подробнее...</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <div class="accordion-header">
+                        <span>Завтраки и десерты</span>
+                        <span class="plus">+</span>
+                    </div>
+                    <div class="accordion-content">
+                        <ul>
+                            <li>Сырники с джемом — 280₽</li>
+                            <li>Овсяная каша с ягодами — 210₽</li>
+                            <li>Круассан классический — 120₽</li>
+                            <li>Чизкейк Сан-Себастьян — 320₽</li>
+                            <li>Торт Морковный — 290₽</li>
+                            <li><a href="#" class="more-link">Подробнее...</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <div class="accordion-header">
+                        <span>Сезонные</span>
+                        <span class="plus">+</span>
+                    </div>
+                    <div class="accordion-content">
+                        <ul>
+                            <li>Пряный тыквенный латте — 260₽</li>
+                            <li>Глинтвейн б/а — 220₽</li>
+                            <li>Какао с маршмэллоу — 200₽</li>
+                            <li>Яблочный штрудель — 250₽</li>
+                            <li>Имбирное печенье — 90₽</li>
+                            <li><a href="#" class="more-link">Подробнее...</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <h2 class="menu-footer-title">МЕНЮ КАФЕ АРОМАТИКА</h2>
+        </div>
+    </section>
+
+    <section id="menu-catalog" class="catalog-section">
+        <div class="container">
+            <div class="catalog-nav">
+                <a href="#" class="active">Все</a>
+                <a href="#">Завтраки</a>
+                <a href="#">Закуски</a>
+                <a href="#">Салаты</a>
+                <a href="#">Супы</a>
+                <a href="#">Горячее</a>
+                <a href="#">Сладкое</a>
+                <a href="#">Кофе и не кофе</a>
+                <a href="#">Напитки</a>
+            </div>
+
+            <div class="catalog-grid">
+                <div class="product-card">
+                    <div class="product-img img-item1"></div>
+                    <h3 class="product-name">Завтрак на большой покровской</h3>
+                    <p class="product-price">950 р.</p>
+                    <button class="details-btn-outline">Подробнее</button>
+                    <div class="product-controls">
+                        <div class="quantity-wrapper">
+                            <button class="qty-btn minus" type="button">−</button>
+                            <span class="qty-num">1</span>
+                            <button class="qty-btn plus" type="button">+</button>
+                        </div>
+                        <button class="add-to-cart">Добавить в корзину</button>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-img img-item2"></div>
+                    <h3 class="product-name">Большой пивной сет</h3>
+                    <p class="product-price">950 р.</p>
+                    <button class="details-btn-outline">Подробнее</button>
+                    <div class="product-controls">
+                        <div class="quantity-wrapper">
+                            <button class="qty-btn minus" type="button">−</button>
+                            <span class="qty-num">1</span>
+                            <button class="qty-btn plus" type="button">+</button>
+                        </div>
+                        <button class="add-to-cart">Добавить в корзину</button>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-img img-item3"></div>
+                    <h3 class="product-name">Большой завтрак</h3>
+                    <p class="product-price">810 р.</p>
+                    <button class="details-btn-outline">Подробнее</button>
+                    <div class="product-controls">
+                        <div class="quantity-wrapper">
+                            <button class="qty-btn minus" type="button">−</button>
+                            <span class="qty-num">1</span>
+                            <button class="qty-btn plus" type="button">+</button>
+                        </div>
+                        <button class="add-to-cart">Добавить в корзину</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="magic-section">
+        <div class="container">
+            <div class="magic-wrapper">
+                <div class="magic-gallery">
+                    <div class="main-image-container">
+                        <img src="./imgs/image 27.png" id="mainMagicImage" alt="Магия Ароматики">
+                    </div>
+                    <div class="thumbnails">
+                        <img src="./imgs/image 27.png" class="thumb active" onclick="changeMagicImg(this)">
+                        <img src="./imgs/image 28.png" class="thumb" onclick="changeMagicImg(this)">
+                        <img src="./imgs/image 30.png" class="thumb" onclick="changeMagicImg(this)">
+                        <img src="./imgs/image 31.png" class="thumb" onclick="changeMagicImg(this)">
+                    </div>
+                </div>
+
+                <div class="magic-text">
+                    <h2>МАГИЯ <br><span>АРОМАТИКИ</span></h2>
+                    <p>Самое главное в кофейнях — это, конечно же, кофе. Приготовлению мы уделяем много сил и времени, всегда совершенствуемся и ищем что-то новое.</p>
+                    <p>В нашей сети мы используем кофейную смесь Гватемала Белла Виста. Это смесь зерен 100% Арабики. Степень обжарки - средняя. А оборудование последнего поколения итальянской марки "La Marzocco" позволяет нам варить кофе высшего класса.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contacts" class="contacts-section">
+        <div id="map" class="map-bg"></div>
+
+        <div class="container">
+            <div class="contacts-card">
+                <h2>ЗАХОДИТЕ К НАМ</h2>
+                
+                <div class="contact-item">
+                    <p class="address">ул. Большая Покровская, 2</p>
+                    <p class="phone">+7 (903) 604-76-90</p>
+                    <p class="hours">Режим работы:<br>вс-чт 8:00 - 22:00<br>пт-сб 8:00 - 00:00</p>
+                </div>
+
+                <div class="contact-item">
+                    <p class="address">Аэропорт "Стригино"</p>
+                    <p class="phone">+7 (903) 604-76-90</p>
+                    <p class="hours">Режим работы: круглосуточно</p>
+                </div>
+
+                <div class="contact-item">
+                    <p class="address">Бабл Ти парк "Швейцария"</p>
+                    <p class="phone">+7 (903) 604-76-90</p>
+                    <p class="hours">Режим работы: Ежедневно 10:00 - 21:00</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="main-footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h4>Компания</h4>
+                    <ul>
+                        <li><a href="index.html#about">О нас</a></li>
+                        <li><a href="#">СМИ</a></li>
+                        <li><a href="#">Блог</a></li>
+                        <li><a href="#contacts">Адреса</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Кофе</h4>
+                    <ul>
+                        <li><a href="#menu">Напитки</a></li>
+                        <li><a href="#">Домой</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Партнерство</h4>
+                    <ul>
+                        <li><a href="#">Франшиза</a></li>
+                        <li><a href="#">Поглощение</a></li>
+                        <li><a href="#">Поставщики</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Работа</h4>
+                    <ul>
+                        <li><a href="#">Бариста</a></li>
+                        <li><a href="#">Тайный гость</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col contact-info">
+                    <p class="f-phone">+7 (903) 604-76-90</p>
+                    <p class="f-sub">для звонков из России и других стран</p>
+                    <p class="f-email">aromatica-coffee@yandex.ru</p>
+                    <div class="legal-info">
+                        <p>ИНН - 1832114281</p>
+                        <p>ОГРН - 1131832005778</p>
+                        <a href="#" class="privacy">Политика конфиденциальности</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU&amp;apikey=ТВОЙ_КЛЮЧ" type="text/javascript"></script>
+    <script type="text/javascript">
+        ymaps.ready(init);
+        function init(){
+            var myMap = new ymaps.Map("map", {
+                center: [56.326887, 44.005867],
+                zoom: 13,
+                controls: []
+            });
+
+            var myPlacemark = new ymaps.Placemark([56.326887, 44.005867], {
+                balloonContent: 'Кафе Ароматика'
+            }, {
+                preset: 'islands#dotIcon',
+                iconColor: '#52A7B3'
+            });
+
+            myMap.geoObjects.add(myPlacemark);
+            myMap.behaviors.disable('scrollZoom');
+        }
+    </script>
+
+    <script>
+        // Мобильное меню
+        const mobileMenuToggle = document.getElementById('mobileMenuToggle');
+        const mobileMenu = document.getElementById('mobileMenu');
+
+        if (mobileMenuToggle && mobileMenu) {
+            mobileMenuToggle.addEventListener('click', function() {
+                this.classList.toggle('active');
+                mobileMenu.classList.toggle('active');
+                document.body.classList.toggle('menu-open');
+                
+                // Анимация бургер-иконки
+                const spans = this.querySelectorAll('span');
+                if (this.classList.contains('active')) {
+                    spans[0].style.transform = 'rotate(45deg) translate(5px, 5px)';
+                    spans[1].style.opacity = '0';
+                    spans[2].style.transform = 'rotate(-45deg) translate(7px, -6px)';
+                } else {
+                    spans[0].style.transform = 'none';
+                    spans[1].style.opacity = '1';
+                    spans[2].style.transform = 'none';
+                }
+            });
+
+            // Закрытие меню при клике на ссылку
+            const mobileLinks = mobileMenu.querySelectorAll('a');
+            mobileLinks.forEach(link => {
+                link.addEventListener('click', () => {
+                    mobileMenuToggle.classList.remove('active');
+                    mobileMenu.classList.remove('active');
+                    document.body.classList.remove('menu-open');
+                    
+                    mobileMenuToggle.querySelectorAll('span').forEach((span, index) => {
+                        span.style.transform = 'none';
+                        if (index === 1) span.style.opacity = '1';
+                    });
+                });
+            });
+        }
+
+        // Аккордеон
+        document.querySelectorAll('.accordion-header').forEach(header => {
+            header.addEventListener('click', () => {
+                const item = header.parentElement;
+                
+                // Закрыть другие открытые пункты
+                document.querySelectorAll('.accordion-item').forEach(otherItem => {
+                    if (otherItem !== item) {
+                        otherItem.classList.remove('active');
+                    }
+                });
+
+                // Переключить текущий пункт
+                item.classList.toggle('active');
+            });
+        });
+
+        // Кнопки количества
+        document.querySelectorAll('.product-card').forEach(card => {
+            const plusBtn = card.querySelector('.plus');
+            const minusBtn = card.querySelector('.minus');
+            const qtyNum = card.querySelector('.qty-num');
+
+            plusBtn.addEventListener('click', () => {
+                let currentQty = parseInt(qtyNum.innerText);
+                if (currentQty < 5) {
+                    qtyNum.innerText = currentQty + 1;
+                }
+            });
+
+            minusBtn.addEventListener('click', () => {
+                let currentQty = parseInt(qtyNum.innerText);
+                if (currentQty > 0) {
+                    qtyNum.innerText = currentQty - 1;
+                }
+            });
+        });
+
+        // Галерея
+        function changeMagicImg(thumbnail) {
+            const mainImg = document.getElementById('mainMagicImage');
+            const allThumbs = document.querySelectorAll('.thumb');
+
+            mainImg.style.opacity = '0';
+
+            setTimeout(() => {
+                mainImg.src = thumbnail.src;
+                mainImg.style.opacity = '1';
+            }, 300);
+
+            allThumbs.forEach(t => t.classList.remove('active'));
+            thumbnail.classList.add('active');
+        }
+    </script>
+
+    <!-- Кнопка переключения темы -->
+    <div class="theme-toggle" id="themeToggle">
+        <svg class="sun-icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path d="M12 17a5 5 0 1 0 0-10 5 5 0 0 0 0 10zm0-13a1 1 0 0 1 1 1v2a1 1 0 1 1-2 0V5a1 1 0 0 1 1-1zm0 16a1 1 0 0 1 1 1v2a1 1 0 1 1-2 0v-2a1 1 0 0 1 1-1zM5.64 7.05a1 1 0 0 1 0 1.41l-1.42 1.42a1 1 0 1 1-1.41-1.41l1.41-1.42a1 1 0 0 1 1.42 0zm12.73 10.91a1 1 0 0 1 0 1.41l-1.42 1.42a1 1 0 1 1-1.41-1.41l1.41-1.42a1 1 0 0 1 1.42 0zM5 12a1 1 0 0 1-1-1v-2a1 1 0 1 1 2 0v2a1 1 0 0 1-1 1zm14 0a1 1 0 0 1-1-1v-2a1 1 0 1 1 2 0v2a1 1 0 0 1-1 1zM5.64 16.95a1 1 0 0 1 0-1.41l1.42-1.42a1 1 0 1 1 1.41 1.41l-1.41 1.42a1 1 0 0 1-1.42 0zm12.73-10.91a1 1 0 0 1 0-1.41l1.42-1.42a1 1 0 1 1 1.41 1.41l-1.41 1.42a1 1 0 0 1-1.42 0z"/>
+        </svg>
+        <svg class="moon-icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path d="M21.4 13.7c-.2.5-.5.9-.9 1.3-.4.4-.8.7-1.3.9-.5.2-1 .3-1.5.3s-1-.1-1.5-.3c-.5-.2-.9-.5-1.3-.9s-.7-.8-.9-1.3c-.2-.5-.3-1-.3-1.5s.1-1 .3-1.5c.2-.5.5-.9.9-1.3s.8-.7 1.3-.9c.5-.2 1-.3 1.5-.3s1 .1 1.5.3c.5.2.9.5 1.3.9s.7.8.9 1.3c.2.5.3 1 .3 1.5s-.1 1-.3 1.5zm-1.7.2c.1-.3.2-.6.2-1s-.1-.7-.2-1c-.1-.3-.3-.6-.5-.8-.2-.2-.5-.4-.8-.5-.3-.1-.6-.2-1-.2s-.7.1-1 .2c-.3.1-.6.3-.8.5s-.4.5-.5.8c-.1.3-.2.6-.2 1s.1.7.2 1c.1.3.3.6.5.8s.5.4.8.5c.3.1.6.2 1 .2s.7-.1 1-.2c.3-.1.6-.3.8-.5s.4-.5.5-.8zM12 22c-2.8 0-5.3-1.1-7.1-2.9S2 14.8 2 12s1.1-5.3 2.9-7.1S9.2 2 12 2c.3 0 .6 0 .9.1-1.9.8-3.4 2.3-4.2 4.2-.8 1.9-.8 4.1 0 6 .8 1.9 2.3 3.4 4.2 4.2 1.9.8 4.1.8 6 0 1.9-.8 3.4-2.3 4.2-4.2.8-1.9.8-4.1 0-6-.1-.3-.1-.6-.2-.9.5 0 1 .1 1.5.2.5.1.9.3 1.3.5.4.2.8.5 1.1.8.3.3.6.7.8 1.1.2.4.4.8.5 1.3.1.5.2 1 .2 1.5 0 2.8-1.1 5.3-2.9 7.1S14.8 22 12 22z"/>
+        </svg>
+    </div>
+
+    <script>
+        // Переключение темы
+        const themeToggle = document.getElementById('themeToggle');
+        const savedTheme = localStorage.getItem('theme');
+        
+        // Восстанавливаем тему при загрузке
+        if (savedTheme === 'dark') {
+            document.body.classList.add('dark-theme');
+        }
+        
+        // Обработчик клика на переключатель
+        if (themeToggle) {
+            themeToggle.addEventListener('click', () => {
+                document.body.classList.toggle('dark-theme');
+                
+                // Сохраняем выбор в localStorage
+                if (document.body.classList.contains('dark-theme')) {
+                    localStorage.setItem('theme', 'dark');
+                } else {
+                    localStorage.setItem('theme', 'light');
+                }
+            });
+        }
+    </script>
+
+</body>
+</html>
